@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 44" width="255" height="44" fill="none">
+  <defs>
+    <linearGradient id="gwGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF014F" />
+      <stop offset="100%" stop-color="#FF494A" />
+    </linearGradient>
+    <filter id="gwGlowDark" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#FF014F" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Developer Icon Badge -->
+  <g filter="url(#gwGlowDark)">
+    <rect x="2" y="2" width="40" height="40" rx="10" fill="url(#gwGradientDark)" />
+    <!-- Code Brackets -->
+    <path d="M12 16L7 21L12 26" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M28 16L33 21L28 26" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Monogram -->
+    <text x="20" y="25" font-family="'Rajdhani', sans-serif" font-size="11.5" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">GW</text>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(50, 0)">
+    <text x="0" y="23" font-family="'Rajdhani', 'Rubik', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" letter-spacing="1">GOVIND</text>
+    <text x="76" y="23" font-family="'Rajdhani', 'Rubik', sans-serif" font-size="20" font-weight="700" fill="#FF014F" letter-spacing="1">WAGHMARE</text>
+    <text x="1" y="37" font-family="'Rubik', sans-serif" font-size="8.5" font-weight="600" fill="#9F9F9F" letter-spacing="2.2">FULL STACK DEVELOPER</text>
+  </g>
+</svg>
