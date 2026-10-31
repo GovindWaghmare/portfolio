@@ -1,0 +1,10 @@
+# Robots.txt for Govind Waghmare Portfolio
+User-agent: *
+Allow: /
+
+# Disallow administrative or build artifacts if any
+Disallow: /.git/
+Disallow: /baseline-report*
+
+# XML Sitemap
+Sitemap: https://govindwaghmare.github.io/portfolio/sitemap.xml

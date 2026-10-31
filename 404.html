@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page Not Found | Govind Waghmare</title>
+    <meta name="description" content="The page you are looking for does not exist. Return to Govind Waghmare's portfolio." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/svg+xml" href="Assets/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .error-page-wrapper {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 20px;
+        background: #141416;
+        color: #ffffff;
+      }
+      .error-content {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .error-code {
+        font-size: clamp(80px, 15vw, 140px);
+        font-weight: 800;
+        line-height: 1;
+        margin-bottom: 20px;
+        background: linear-gradient(135deg, #ff014f 0%, #ff494a 50%, #61dafb 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .error-title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+      .error-desc {
+        color: #a0a0a5;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+      .btn-home {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 30px;
+        background: #e00044;
+        color: #ffffff;
+        font-weight: 600;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 20px rgba(224, 0, 68, 0.4);
+      }
+      .btn-home:hover {
+        background: #ff014f;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body class="template-color-1">
+    <div class="error-page-wrapper">
+      <div class="error-content">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-desc">
+          The page or resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+        </p>
+        <a href="index.html" class="btn-home">
+          <span>Back to Portfolio</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
